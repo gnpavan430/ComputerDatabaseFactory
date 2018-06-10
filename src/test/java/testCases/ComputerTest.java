@@ -63,7 +63,7 @@ public class ComputerTest extends SetUp {
 
 
 
-     @Test
+   /*  @Test
     public void updateComputer() throws Exception {
         System.out.println("Update Computer test is executed");
         HomePage homePage = PageFactory.initElements(driver,HomePage.class);
@@ -79,6 +79,6 @@ public class ComputerTest extends SetUp {
         clientUtils.click(driver,addAComputerPage.saveThisComputer);
         logger.log(LogStatus.INFO,"ComputerTest name is updated");
 
-    }
+    }*/
 
 }
