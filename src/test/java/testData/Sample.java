@@ -50,6 +50,7 @@ public class Sample {
                 System.out.println("Introduced Date:"+ExcelWSheet.getRow(i).getCell(1));
                 System.out.println("Discontinued date:"+ExcelWSheet.getRow(i).getCell(2));
                 System.out.println("Company:"+ExcelWSheet.getRow(i).getCell(3));
+                System.out.println("Integrated project with Git");
             }
         }
 
