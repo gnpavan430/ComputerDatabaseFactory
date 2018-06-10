@@ -1,0 +1,33 @@
+{
+  "Computer Dashboard_TC001Verify that user is able to create a computer": {
+    "id": "01",
+    "Info": "TC001 - Verify that user is able to create a computer",
+    "Feature": "Computer",
+    "testName":"addComputer",
+    "ActionFlow": "1",
+    "Validate": "CreateComputer",
+    "testData":"Sheet1,1",
+    "ExecuteUTE": true
+  },
+  "Computer Dashboard_TC002Verify that user is able to update computer": {
+    "id": "02",
+    "Info": "TC002 - Verify that user is able to update the computer",
+    "Feature": "Computer",
+    "testName":"updateComputer",
+    "ActionFlow": "1",
+    "Validate": "UpdateComputer",
+    "testData":"Sheet1,2",
+    "ExecuteUTE": true
+  },
+  "Computer Dashboard_TC003Verify that user is able to remove computer": {
+    "id": "03",
+    "Info": "TC003 - Verify that user is able to remove computer",
+    "Feature": "Computer",
+    "testName":"deleteComputer",
+    "ActionFlow": "1",
+    "Validate": "RemoveComputer",
+    "testData":"Sheet1,2",
+    "ExecuteUTE": true
+  }
+
+}
