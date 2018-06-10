@@ -52,3 +52,4 @@ public class Sample {
                 System.out.println("Company:"+ExcelWSheet.getRow(i).getCell(3));
                 System.out.println("Integrated project with Git");
                 System.out.println("Core Java");
+                System.out.println("New title");
