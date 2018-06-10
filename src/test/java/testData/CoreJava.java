@@ -16,6 +16,8 @@ public class CoreJava {
             number=number/10;
 
         }
+        System.out.println("New line");
+
         if(sum==temp){
             System.out.println("Number is a palindrome");
         }

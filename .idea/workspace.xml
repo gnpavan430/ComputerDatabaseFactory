@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7122f17-7c9e-42c8-994a-176b0d39dead" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/CoreJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testData/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testData/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/CoreJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/CoreJava.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,8 +100,8 @@
       <file leaf-file-name="CoreJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testData/CoreJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="196">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -533,6 +531,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -577,12 +576,6 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testData/CoreJava.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/testData/TestCaseExecutor.java</url>
@@ -913,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testData/CoreJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="196">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
