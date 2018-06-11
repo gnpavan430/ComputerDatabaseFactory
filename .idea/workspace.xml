@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7122f17-7c9e-42c8-994a-176b0d39dead" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testData/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/Sample.java" afterDir="false" />
-    </list>
+    <list default="true" id="c7122f17-7c9e-42c8-994a-176b0d39dead" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,6 +95,7 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="448">
+<<<<<<< HEAD
               <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
 ||||||| merged common ancestors
             <state relative-caret-position="373">
@@ -105,6 +104,9 @@
             <state relative-caret-position="511">
               <caret line="58" lean-forward="true" selection-start-line="52" selection-start-column="66" selection-end-line="58" />
 >>>>>>> fourthbranch
+=======
+              <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+>>>>>>> shorten_title
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -965,6 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="448">
+<<<<<<< HEAD
           <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
 ||||||| merged common ancestors
         <state relative-caret-position="373">
@@ -973,6 +976,9 @@
         <state relative-caret-position="511">
           <caret line="58" lean-forward="true" selection-start-line="52" selection-start-column="66" selection-end-line="58" />
 >>>>>>> fourthbranch
+=======
+          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+>>>>>>> shorten_title
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
