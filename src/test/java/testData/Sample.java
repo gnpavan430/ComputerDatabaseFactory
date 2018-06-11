@@ -51,4 +51,19 @@ public class Sample {
                 System.out.println("Discontinued date:"+ExcelWSheet.getRow(i).getCell(2));
                 System.out.println("Company:"+ExcelWSheet.getRow(i).getCell(3));
                 System.out.println("Integrated project with Git");
+<<<<<<< HEAD
                 System.out.println("Core Java");
+||||||| merged common ancestors
+            }
+        }
+
+    }
+}
+=======
+                System.out.println("New branch statement");
+            }
+        }
+
+    }
+}
+>>>>>>> fourthbranch
