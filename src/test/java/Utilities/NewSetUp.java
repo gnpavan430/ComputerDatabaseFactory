@@ -9,12 +9,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.File;
 import java.io.IOException;
 
 public class NewSetUp {
     public static WebDriver driver;
     PropertyUtils properties;
     public static int testCasesCount=0;
+    public static String screenshotsPath=System.getProperty("user.dir") + File.separator + "screenshots\\";
     @BeforeMethod
     public void setUp() throws IOException {
         System.out.println("I am from Before Method");
@@ -31,18 +33,23 @@ public class NewSetUp {
         HTMLUtility.createHTMLTemplate();
     }
     @AfterMethod
-    public void getResult(ITestResult result){
+    public void getResult(ITestResult result) throws IOException {
         testCasesCount=testCasesCount+1;
         if(result.getStatus()==ITestResult.SUCCESS){
+            System.out.println(screenshotsPath+result.getName()+"\\"+"path");
 
-            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"Pass");
+
+            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"Pass",screenshotsPath+result.getName()+"\\");
+
 
         }
         else if(result.getStatus()==ITestResult.FAILURE){
-            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"Fail");
+            System.out.println(screenshotsPath+result.getName()+"\\"+"path");
+            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"Fail",screenshotsPath+result.getName()+"\\");
         }
         else if(result.getStatus()==ITestResult.SKIP){
-            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"No Run");
+            System.out.println(screenshotsPath+result.getName()+"\\"+"path");
+            HTMLUtility.testCaseExecutionStatus(testCasesCount,result.getName(),"No Run",screenshotsPath+result.getName()+"\\");
         }
 
 

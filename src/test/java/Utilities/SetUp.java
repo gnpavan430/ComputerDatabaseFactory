@@ -75,13 +75,13 @@ public class SetUp  {
         //endTest(logger) : It ends the current test and prepares to create HTML report
         extent.endTest(logger);
     }
-    public static String getScreenshot(WebDriver driver, String screenshotName) throws Exception {
+    public static String getScreenshot(WebDriver driver, String screenshotName,String methodName) throws Exception {
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         //after execution, you could see a folder "FailedTestsScreenshots" under src folder
 
-        String destination = System.getProperty("user.dir") + File.separator + "/screenshots/"+"screenshotName"+".jpeg";
+        String destination = System.getProperty("user.dir") + File.separator + "screenshots/"+methodName+"/"+screenshotName+".jpeg";
         File finalDestination = new File(destination);
         FileUtils.copyFile(source, finalDestination);
         System.out.println("Destination is"+destination);
